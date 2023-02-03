@@ -5,7 +5,6 @@
 #include <tchar.h>
 #include <iostream>
 
-
 class Comms {
 private:
 
@@ -28,7 +27,4 @@ public:
 	virtual void accept_socket();
 	virtual void clientMessage();
 	virtual void serverMessage();
-
-	//virtual void enterMessage();
-	//virtual void displayMessage();
 };

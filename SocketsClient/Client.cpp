@@ -11,7 +11,5 @@ public:
 		Comms::createSocket();
 		Comms::connectSocket();
 		Comms::clientMessage();
-		//Comms::enterMessage();
-		//Comms::displayMessage();
 	}
 };

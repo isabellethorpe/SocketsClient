@@ -13,8 +13,6 @@ public:
 		Comms::listenSocket();
 		Comms::accept_socket();
 		Comms::serverMessage();
-		//Comms::displayMessage();
-		//Comms::enterMessage();
 	}
 };
 
