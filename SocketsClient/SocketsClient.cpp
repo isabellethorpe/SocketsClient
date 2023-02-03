@@ -7,18 +7,18 @@
 #include "Client.cpp"
 using namespace std;
 
-
+// Defining macro to enable server
 #define ENABLE_CLIENT
 
 int main(int argc, char* argv[]) {
 
-
+	// If server is defined, start the server
 #ifdef ENABLE_SERVER
 	Server socketsServer;
 	socketsServer.start();
 #endif
 
-
+	// If client is defined, start the client
 #ifdef ENABLE_CLIENT
 	Client socketsClient;
 	socketsClient.start();
@@ -26,7 +26,6 @@ int main(int argc, char* argv[]) {
 
 	return 0;
 }
-
 
 
 

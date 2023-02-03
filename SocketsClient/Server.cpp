@@ -1,9 +1,11 @@
 #include "Comms.h"
+#include <iostream>
 
 using namespace std;
 
 class Server : public Comms {
 public:
+	// Starts the server process
 	void start() {
 
 		cout << "Starting server..." << endl;
